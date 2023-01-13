@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>El "LENGUAJE HACKER"</title>
+</head>
+<body>
+    <header>
+        <h2>EL LENGUAJE HACKER</h2>
+    </header>
+    <main>
+        <h2>CIFRA TU TEXTO CON EL LENGUAJE DE LOS HACKERS</h2>
+        <section class="cifrador">
+            <textarea class="input-texto" id="texto"></textarea>
+
+            <div class="radio-group">
+                
+                <input type="radio" name="cipher" id="basic" value="basic" checked>
+                <label for="basic">cifrado básico</label>
+                
+                <input type="radio" name="cipher" id="advance" value="advance">
+                <label for="advance">cifrado avanzado</label>
+
+            </div>
+            <div class="button">
+                <button class="btn" type="button" id="codificar">Codificar texto a texto hacker</button>
+            </div>
+        </section>
+        <section class="cifrado" id="cifrado">
+        </section>
+    </main>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

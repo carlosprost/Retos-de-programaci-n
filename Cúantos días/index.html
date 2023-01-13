@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cúantos días?</title>
+</head>
+<body>
+    <form id="calcularDias">
+        <input type="text" id="fechaUno" pattern="[0-3]{1}[0-9]{1}[/][0-1]{1}[0-2]{1}[/][0-9]{4}">
+        <input type="text" id="fechaDos" pattern="[0-3]{1}[0-9]{1}[/][0-1]{1}[0-2]{1}[/][0-9]{4}">
+        <button type="submit">Calcular los día de diferencia</button>
+    </form>
+    <div id="diasDeDiferencia"></div>
+
+    <script src="./calcularDias.js"></script>
+</body>
+</html>
