@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Generador de Contraseñas</title>
+ </head>
+ <body>
+    <main>
+        <h1>GENERAR CONTRASEÑA</h1>
+        <section class="contraseña">hol</section>
+        <section class="radio">
+            <p>Cantidad de caracteres</p>
+            <label for="8">8</label>
+            <input type="radio" name="cant" id="8" checked required>
+            <label for="16">16</label>
+            <input type="radio" name="cant" id="16" required>
+        </section>
+        <section class="checkbox">
+            <label for="mayus">Mayúsculas</label>
+            <input type="checkbox" name="item" id="mayus">
+            <label for="mayus">Símbolos</label>
+            <input type="checkbox" name="item" id="symbol">
+            <label for="mayus">Números</label>
+            <input type="checkbox" name="item" id="num">
+        </section>
+        <section class="button">
+            <button type="button" id="generar">GENERAR CONTRASEÑA</button>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+ </body>
+ </html>
