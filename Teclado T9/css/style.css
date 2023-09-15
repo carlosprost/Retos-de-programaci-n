@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+body main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .mobile {
+  width: 300px;
+  height: 500px;
+  border-radius: 60px 60px 100px 100px;
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2%;
+}
+body main .mobile .screen {
+  width: 85%;
+  height: 150px;
+  border-radius: 50px;
+  background-color: rgb(33, 33, 33);
+}
+body main .mobile .btns {
+  width: 95%;
+  height: 310px;
+  background-color: #252939;
+  margin-top: 3%;
+  border-radius: 30px 30px 100px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .mobile .btns .btn-command {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .mobile .btns .btn-command .command-1,
+body main .mobile .btns .btn-command .command-2,
+body main .mobile .btns .btn-command .command-center {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+body main .mobile .btns .btn-command .command-1 button,
+body main .mobile .btns .btn-command .command-2 button,
+body main .mobile .btns .btn-command .command-center button {
+  width: 100%;
+  height: 100%;
+  background-color: #353535;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 5px 0;
+}
+body main .mobile .btns .btn-command .command-1 button:active,
+body main .mobile .btns .btn-command .command-2 button:active,
+body main .mobile .btns .btn-command .command-center button:active {
+  outline: 0.5px solid white;
+}
+body main .mobile .btns .btn-numbers {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .mobile .btns .btn-numbers .btn-group {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+body main .mobile .btns .btn-numbers .btn-group button {
+  width: 100%;
+  height: 100%;
+  background-color: #353535;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 5px 1px;
+}
+body main .mobile .btns .btn-numbers .btn-group button:active {
+  outline: 0.5px solid white;
+}
+body main .mobile .btns .btn-numbers .btn-group .active {
+  outline: 0.5px solid white;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+
+  background-color: black;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+
+  background: url("./assets/backgroud.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .juego {
+  width: 90%;
+  height: 90%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main .juego .horca {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .juego .horca img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+main .juego .palabra {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .juego .palabra .oportunidades {
+  width: 80%;
+  height: 10%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  font-size: 3rem;
+}
+
+main .juego .palabra .tablero {
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main .juego .palabra .tablero .letras {
+  width: 60%;
+  height: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main .juego .palabra .tablero .letras div {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+main .juego .palabra .tablero .letras .rojo {
+  background-color: red;
+}
+
+main .juego .palabra .tablero .lineas {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main .juego .palabra .tablero .lineas div {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border-bottom: 3px solid white;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
